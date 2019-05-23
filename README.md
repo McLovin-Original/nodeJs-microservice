@@ -1,0 +1,2 @@
+# nodeJs-microservice
+The microservice was development in node js with an express server. The project has an express server The architecture used in this project it principally the concept of onion architecture and DDD (Domain Driven Desing), Also I used CQRS pattern (Command Query Responsibility Segregation) And principles SOLID: S – Single Responsibility Principle (SRP) O – Open/Closed Principle (OCP) L – Liskov Substitution Principle (LSP) I – Interface Segregation Principle (ISP) D – Dependency Inversion Principle (DIP)
