@@ -1,0 +1,35 @@
+{
+  "name": "nodejs-microservice",
+  "version": "1.0.0",
+  "description": "Example of microservice implementing onion arquitecture and DDD.",
+  "main": "./src/example-microservice/infrastructure/api-rest/Microservice.ts",
+  "scripts": {
+    "start": "NODE_ENV=producction node ./bin/www",
+    "grunt": "grunt compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pablorg9/nodejs-microservice.git"
+  },
+  "author": "Juan Pablo Restrepo Garcia - @pablorg9",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pablorg9/nodejs-microservice/issues"
+  },
+  "homepage": "https://github.com/pablorg9/nodejs-microservice#readme",
+  "devDependencies": {
+    "@types/body-parser": "^1.17.0",
+    "@types/express": "^4.16.1",
+    "grunt": "^1.0.4",
+    "grunt-cli": "^1.3.2",
+    "grunt-ts": "^6.0.0-beta.22",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.0",
+    "inversify": "^5.0.1",
+    "pg-promise": "^8.7.2",
+    "reflect-metadata": "^0.1.13"
+  }
+}
